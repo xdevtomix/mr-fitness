@@ -19,7 +19,7 @@ export default function Header() {
         };
     }, []);
 
-    const links = (
+    const Links = () => (
         <>
             <Link href="#home">Home</Link>
             <Link href="#about">About</Link>
@@ -37,13 +37,13 @@ export default function Header() {
             </Logo>
 
             {isSmallScreen && <VerticalMenu isVerticalMenuVisible={isVerticalMenuVisible} onClick={() => setIsVerticalMenuVisible(false)}>
-                {links}
+                <Links />
             </VerticalMenu>}
 
             {isSmallScreen && <MenuIcon className="bx bx-menu" onClick={() => setIsVerticalMenuVisible(!isVerticalMenuVisible)}></MenuIcon>}
 
             {!isSmallScreen && <HorizontalMenu>
-                {links}
+                <Links />
             </HorizontalMenu>}
         </Container>
     );
