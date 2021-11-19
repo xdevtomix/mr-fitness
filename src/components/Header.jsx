@@ -36,7 +36,7 @@ export default function Header() {
                 <span>Be</span>Fit
             </Logo>
 
-            {isSmallScreen && <VerticalMenu isVerticalMenuVisible={isVerticalMenuVisible}>
+            {isSmallScreen && <VerticalMenu isVerticalMenuVisible={isVerticalMenuVisible} onClick={() => setIsVerticalMenuVisible(false)}>
                 {links}
             </VerticalMenu>}
 
