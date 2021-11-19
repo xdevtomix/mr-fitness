@@ -13,7 +13,6 @@ export default function Home() {
                 pagination={{ clickable: true }}
                 autoplay={{delay: 5000}}
                 loop
-                speed={1000}
             >
                 <SwiperSlide>
                     <SlideItem image="https://images.pexels.com/photos/7675409/pexels-photo-7675409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
