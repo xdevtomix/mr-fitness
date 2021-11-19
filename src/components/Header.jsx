@@ -66,16 +66,12 @@ const Container = styled.header`
 
 const Logo = styled.a`
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--white);
     text-decoration: none;
 
     span {
         color: var(--red);
-    }
-
-    @media(min-width: 1536px) {
-        font-size: 2rem;
     }
 `;
 
@@ -89,7 +85,7 @@ const VerticalMenu = styled.nav`
     padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
-    transition: 200ms;
+    transition: 250ms;
     transform: translate3d(${({ isVerticalMenuVisible }) => isVerticalMenuVisible ? '0' : '-100%'}, 0, 0);
 `;
 
@@ -101,21 +97,17 @@ const Link = styled.a`
     color: var(--white);
     margin-bottom: 1rem;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
 
     :hover {
         color: var(--red);
     }
-
-    @media(min-width: 1536px) {
-        font-size: 1.5rem;
-    }
 `;
 
 const MenuIcon = styled.i`
     color: var(--white);
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
 `;
 
