@@ -53,6 +53,7 @@ const Container = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,6 +70,7 @@ const Logo = styled.a`
     font-size: 2rem;
     color: var(--white);
     text-decoration: none;
+    letter-spacing: 0.1rem;
 
     span {
         color: var(--red);
