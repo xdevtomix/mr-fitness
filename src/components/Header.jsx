@@ -79,10 +79,9 @@ const VerticalMenu = styled.nav`
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;
     height: 100vh;
     background-color: var(--black);
-    padding: 2rem 2rem;
+    padding: 2rem 0 0 2rem;
     display: flex;
     flex-direction: column;
     transition: 250ms;
