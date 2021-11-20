@@ -96,6 +96,7 @@ export default function Pricing() {
         </Container>
     );
 }
+
 const Container = styled.section`
     margin-top: 4rem;
     padding: 0 1rem;
