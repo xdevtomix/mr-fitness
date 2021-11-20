@@ -60,10 +60,11 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 4rem;
 
     @media(min-width: 768px) {
-        margin-top: 4rem;
+        margin-top: 6rem;
         gap: 2rem;
     }
 
@@ -162,17 +163,17 @@ const Content = styled.div`
 const BoxesContainer = styled.div`
     margin: 1rem 0;
     display: grid;
+    gap: 1rem;
 
     @media(min-width: 768px) {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 2rem;
     }
 `;
 
 const Box = styled.div`
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
 
     div {
         display: flex;
