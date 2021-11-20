@@ -3,6 +3,7 @@ import styled, { StyleSheetManager } from "styled-components";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
+import Features from "./components/Features";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Header />
         <Home />
         <About />
+        <Features />
       </Container>
     </StyleSheetManager>
   )
