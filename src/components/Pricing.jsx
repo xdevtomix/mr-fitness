@@ -151,6 +151,10 @@ const Box = styled.div`
     border-radius: 0.25rem;
     padding: 1rem 2rem 0 2rem;
 
+    :nth-child(2) {
+        background: #333;
+    }
+
     h5 {
         color: var(--white);
         font-size: 1.5rem;
@@ -168,21 +172,21 @@ const Box = styled.div`
         }
     }
 
-    li {
-        margin-bottom: 1rem;
+    ul {
+        list-style-type: none;
 
-        i {
-            color: var(--red);
-            font-size: 1.5rem;
-        }
-
-        span {
-            color: var(--light-white);
-            font-size: 1rem;
-        }
-    }
+        li {
+            margin-bottom: 1rem;
     
-    :nth-child(2) {
-        background: #333;
+            i {
+                color: var(--red);
+                font-size: 1.5rem;
+            }
+    
+            span {
+                color: var(--light-white);
+                font-size: 1rem;
+            }
+        }
     }
 `;
