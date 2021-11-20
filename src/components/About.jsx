@@ -161,13 +161,12 @@ const Content = styled.div`
 `;
 
 const BoxesContainer = styled.div`
-    margin: 1rem 0;
+    margin: 2rem 0;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 
     @media(min-width: 768px) {
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
     }
 `;
 
