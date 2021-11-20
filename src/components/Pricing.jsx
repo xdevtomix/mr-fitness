@@ -181,6 +181,7 @@ const Box = styled.div`
             i {
                 color: var(--red);
                 font-size: 1.5rem;
+                margin-right: 0.5rem;
             }
     
             span {
