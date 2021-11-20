@@ -176,6 +176,8 @@ const Box = styled.div`
         list-style-type: none;
 
         li {
+            display: flex;
+            align-items: center;
             margin-bottom: 1rem;
     
             i {
