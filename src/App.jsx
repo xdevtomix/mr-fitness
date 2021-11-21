@@ -6,6 +6,7 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
 import Trainers from "./components/Trainers";
+import Banner from "./components/Banner";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Features />
         <Pricing />
         <Trainers />
+        <Banner />
       </Container>
     </StyleSheetManager>
   )
