@@ -102,7 +102,7 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 
     @media(min-width: 768px) {
         flex-direction: row;
