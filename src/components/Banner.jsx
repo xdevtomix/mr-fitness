@@ -12,7 +12,7 @@ export default function Banner() {
 }
 
 const Container = styled.section`
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
@@ -56,12 +56,10 @@ const Container = styled.section`
     }
 
     @media(min-width: 768px) {
-        margin-top: 6rem;
         aspect-ratio: 12 / 6;
     }
 
     @media(min-width: 1024px) {
-        margin-top: 8rem;
         aspect-ratio: 12 / 4;
     }
 `;

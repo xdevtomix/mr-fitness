@@ -123,23 +123,15 @@ export default function Blogs() {
 }
 
 const Container = styled.section`
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding: 0 1rem;
-
-    @media(min-width: 768px) {
-        margin-top: 6rem;
-    }
-
-    @media(min-width: 1024px) {
-        margin-top: 8rem;
-    }
 `;
 
 const Title = styled.div`   
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
     div:nth-child(1) {
         width: 25%;

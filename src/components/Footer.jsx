@@ -83,16 +83,8 @@ export default function Footer() {
 }
 
 const Container = styled.section`
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding: 0 1rem 4rem 1rem;
-
-    @media(min-width: 768px) {
-        margin-top: 6rem;
-    }
-
-    @media(min-width: 1024px) {
-        margin-top: 8rem;
-    }
 
     @media(min-width: 1536px) {
         padding: 0 4rem 4rem 4rem;

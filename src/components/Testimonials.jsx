@@ -97,7 +97,7 @@ export default function Testimonials() {
 }
 
 const Container = styled.section`
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding: 0 1rem;
     display: flex;
     flex-direction: column;
@@ -106,11 +106,6 @@ const Container = styled.section`
 
     @media(min-width: 768px) {
         flex-direction: row;
-        margin-top: 6rem;
-    }
-
-    @media(min-width: 1024px) {
-        margin-top: 8rem;
     }
 `;
 
