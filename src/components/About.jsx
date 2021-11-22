@@ -60,19 +60,13 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-top: 4rem;
-
-    @media(min-width: 768px) {
-        margin-top: 6rem;
-        gap: 2rem;
-    }
+    gap: 2rem;
+    margin-top: 8rem;
 
     @media(min-width: 1024px) {
         flex-direction: row;
         justify-content: space-between;
         padding: 0 2rem;
-        margin-top: 8rem;
     }
 `;
 
@@ -120,7 +114,6 @@ const ImageContainer = styled.div`
 
 const Content = styled.div`
     padding: 0 1rem;
-    margin-top: 2rem;
 
     >span {
         color: var(--red);
