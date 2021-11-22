@@ -133,6 +133,10 @@ const BoxesContainer = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
+    @media(min-width: 1024px) {
+        gap: 4rem;
+    }
 `;
 
 const Box = styled.div`

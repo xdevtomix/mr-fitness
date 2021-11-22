@@ -170,6 +170,10 @@ const SlideItem = styled.div`
     border-radius: 0.25rem;
     aspect-ratio: 3 / 2;
 
+    @media(min-width: 1024px) {
+        margin-bottom: 4rem;
+    }
+
     >div:nth-child(1) {
         font-size: 1rem;
         color: var(--light-white);
