@@ -71,6 +71,7 @@ const Container = styled.section`
         flex-direction: row;
         justify-content: space-between;
         padding: 0 2rem;
+        gap: 0;
     }
 `;
 
@@ -78,6 +79,10 @@ const ImageContainer = styled.div`
     width: 100%;
     aspect-ratio: 1 / 1;
     position: relative;
+
+    @media(min-width: 768px) {
+        width: 75%;
+    }
 
     div:nth-child(1) {
         position: absolute;
@@ -105,14 +110,6 @@ const ImageContainer = styled.div`
         width: 10rem;
         height: 10rem;
         border: 0.5rem solid var(--red);
-    }
-
-    @media(min-width: 768px) {
-        width: 75%;
-    }
-
-    @media(min-width: 1024px) {
-        width: 50%;
     }
 `;
 

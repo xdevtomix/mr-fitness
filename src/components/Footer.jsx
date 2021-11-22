@@ -100,8 +100,8 @@ const GridContainer = styled.div`
         grid-template-columns: 1fr 1fr;
     }
 
-    @media(min-width: 1024px) {
-        grid-template-columns: 1fr 2fr 1fr 1fr;
+    @media(min-width: 1366px) {
+        grid-template-columns: 1fr 2fr 1.5fr 1.5fr;
     }
 
     >div:nth-child(1) {
