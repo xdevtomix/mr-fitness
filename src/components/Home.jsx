@@ -60,11 +60,7 @@ const SlideItem = styled.div`
         color: var(--red);
         margin-top: 20rem;
         font-weight: 900;
-        font-size: 1rem;
-
-        @media(min-width: 1024px) {
-            font-size: 1.5rem;
-        }
+        font-size: 1.5rem;
     }
 
     h3 {

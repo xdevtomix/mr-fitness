@@ -137,7 +137,7 @@ const Content = styled.div`
 
     >p {
         color: var(--light-white);
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     >button {
@@ -193,6 +193,6 @@ const Box = styled.div`
     
     p {
         color: var(--light-white);
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 `;
