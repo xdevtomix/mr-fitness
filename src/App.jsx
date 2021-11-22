@@ -9,6 +9,7 @@ import Trainers from "./components/Trainers";
 import Banner from "./components/Banner";
 import Testimonials from "./components/Testimonials";
 import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Banner />
         <Testimonials />
         <Blogs />
+        <Footer />
       </Container>
     </StyleSheetManager>
   )
