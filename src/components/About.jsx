@@ -63,6 +63,10 @@ const Container = styled.section`
     gap: 2rem;
     margin-top: 8rem;
 
+    @media(min-width: 768px) {
+        gap: 4rem;
+    }
+
     @media(min-width: 1024px) {
         flex-direction: row;
         justify-content: space-between;
