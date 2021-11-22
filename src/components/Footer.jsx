@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h5>Newsletter</h5>
+                    <h5>NEWSLETTER</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, expedita?</p>
                     <input placeholder="you know what..." />
                     <button>Subscribe</button>
@@ -84,10 +84,10 @@ export default function Footer() {
 
 const Container = styled.section`
     margin-top: 8rem;
-    padding: 0 1rem 4rem 1rem;
+    padding: 0 1rem 8rem 1rem;
 
     @media(min-width: 1536px) {
-        padding: 0 4rem 4rem 4rem;
+        padding: 0 4rem 8rem 4rem;
     }
 `;
 
@@ -186,10 +186,10 @@ const GridContainer = styled.div`
 
                 div {
                     display: flex;
-                    gap: 1rem;
+                    gap: 1.5rem;
 
                     i {
-                        font-size: 1rem;
+                        font-size: 1.5rem;
                         color: var(--white);
                         cursor: pointer;
                     }
@@ -204,6 +204,7 @@ const GridContainer = styled.div`
             font-size: 1rem;
             color: var(--white);
             margin-bottom: 1rem;
+            letter-spacing: 0.25rem;
         }
 
         p {
