@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Trainers from "./components/Trainers";
 import Banner from "./components/Banner";
 import Testimonials from "./components/Testimonials";
+import Blogs from "./components/Blogs";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Trainers />
         <Banner />
         <Testimonials />
+        <Blogs />
       </Container>
     </StyleSheetManager>
   )
