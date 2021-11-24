@@ -6,7 +6,7 @@ export default function About() {
 
             <ImageContainer>
                 <div></div>
-                <img src="https://images.pexels.com/photos/1431283/pexels-photo-1431283.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                <img src="https://images.pexels.com/photos/1431283/pexels-photo-1431283.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                 <div></div>
             </ImageContainer>
 

@@ -11,7 +11,7 @@ export default function Features() {
 
             <BoxesContainer>
                 <Box>
-                    <img src="https://images.pexels.com/photos/2785408/pexels-photo-2785408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/2785408/pexels-photo-2785408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                 </Box>
                 <Box>
                     <ion-icon name="body-sharp"></ion-icon>
@@ -20,7 +20,7 @@ export default function Features() {
                     <button>Read More</button>
                 </Box>
                 <Box>
-                    <img src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                 </Box>
                 <Box>
                     <ion-icon name="body-sharp"></ion-icon>
@@ -29,7 +29,7 @@ export default function Features() {
                     <button>Read More</button>
                 </Box>
                 <Box>
-                    <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                 </Box>
                 <Box>
                     <ion-icon name="body-sharp"></ion-icon>

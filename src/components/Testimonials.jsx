@@ -34,7 +34,7 @@ export default function Testimonials() {
                             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, voluptatem.</div>
                             <div>
                                 <div>
-                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                                     <div>
                                         <p>Mary Jane</p>
                                         <span>Designer</span>
@@ -49,7 +49,7 @@ export default function Testimonials() {
                             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, voluptatem.</div>
                             <div>
                                 <div>
-                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                                     <div>
                                         <p>Mary Jane</p>
                                         <span>Designer</span>
@@ -64,7 +64,7 @@ export default function Testimonials() {
                             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, voluptatem.</div>
                             <div>
                                 <div>
-                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                                     <div>
                                         <p>Mary Jane</p>
                                         <span>Designer</span>
@@ -79,7 +79,7 @@ export default function Testimonials() {
                             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, voluptatem.</div>
                             <div>
                                 <div>
-                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                                    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                                     <div>
                                         <p>Mary Jane</p>
                                         <span>Designer</span>

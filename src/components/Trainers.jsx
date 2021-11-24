@@ -13,7 +13,7 @@ export default function Trainers() {
             <BoxesContainer>
 
                 <Box>
-                    <img src="https://images.pexels.com/photos/5275033/pexels-photo-5275033.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/5275033/pexels-photo-5275033.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                     <div>
                         <span>Expert Trainer</span>
                         <h5>John Doe</h5>
@@ -36,7 +36,7 @@ export default function Trainers() {
                 </Box>
 
                 <Box>
-                    <img src="https://images.pexels.com/photos/6740056/pexels-photo-6740056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/6740056/pexels-photo-6740056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                     <div>
                         <span>Expert Trainer</span>
                         <h5>John Doe</h5>
@@ -59,7 +59,7 @@ export default function Trainers() {
                 </Box>
 
                 <Box>
-                    <img src="https://images.pexels.com/photos/8810074/pexels-photo-8810074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/8810074/pexels-photo-8810074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                     <div>
                         <span>Expert Trainer</span>
                         <h5>John Doe</h5>
@@ -82,7 +82,7 @@ export default function Trainers() {
                 </Box>
 
                 <Box>
-                    <img src="https://images.pexels.com/photos/1552248/pexels-photo-1552248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
+                    <img src="https://images.pexels.com/photos/1552248/pexels-photo-1552248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" loading="lazy" />
                     <div>
                         <span>Expert Trainer</span>
                         <h5>John Doe</h5>
