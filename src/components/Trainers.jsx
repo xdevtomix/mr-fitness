@@ -20,16 +20,16 @@ export default function Trainers() {
                         <div></div>
                         <ul>
                             <li>
-                                <i className='bx bxl-facebook' ></i>
+                                <ion-icon name="logo-facebook"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-twitter' ></i>
+                                <ion-icon name="logo-twitter"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-instagram' ></i>
+                                <ion-icon name="logo-instagram"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-linkedin' ></i>
+                                <ion-icon name="logo-linkedin"></ion-icon>
                             </li>
                         </ul>
                     </div>
@@ -43,16 +43,16 @@ export default function Trainers() {
                         <div></div>
                         <ul>
                             <li>
-                                <i className='bx bxl-facebook' ></i>
+                                <ion-icon name="logo-facebook"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-twitter' ></i>
+                                <ion-icon name="logo-twitter"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-instagram' ></i>
+                                <ion-icon name="logo-instagram"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-linkedin' ></i>
+                                <ion-icon name="logo-linkedin"></ion-icon>
                             </li>
                         </ul>
                     </div>
@@ -66,16 +66,16 @@ export default function Trainers() {
                         <div></div>
                         <ul>
                             <li>
-                                <i className='bx bxl-facebook' ></i>
+                                <ion-icon name="logo-facebook"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-twitter' ></i>
+                                <ion-icon name="logo-twitter"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-instagram' ></i>
+                                <ion-icon name="logo-instagram"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-linkedin' ></i>
+                                <ion-icon name="logo-linkedin"></ion-icon>
                             </li>
                         </ul>
                     </div>
@@ -89,16 +89,16 @@ export default function Trainers() {
                         <div></div>
                         <ul>
                             <li>
-                                <i className='bx bxl-facebook' ></i>
+                                <ion-icon name="logo-facebook"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-twitter' ></i>
+                                <ion-icon name="logo-twitter"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-instagram' ></i>
+                                <ion-icon name="logo-instagram"></ion-icon>
                             </li>
                             <li>
-                                <i className='bx bxl-linkedin' ></i>
+                                <ion-icon name="logo-linkedin"></ion-icon>
                             </li>
                         </ul>
                     </div>
@@ -187,7 +187,7 @@ const Box = styled.div`
             li {
                 margin-right: 1rem;
 
-                i {
+                ion-icon {
                     color: var(--white);
                     cursor: pointer;
                     font-size: 1.5rem;

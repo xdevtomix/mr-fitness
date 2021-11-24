@@ -18,7 +18,7 @@ export default function About() {
                 <BoxesContainer>
                     <Box>
                         <div>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <h5>Body And Mind</h5>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, aspernatur?</p>
@@ -26,7 +26,7 @@ export default function About() {
 
                     <Box>
                         <div>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <h5>Healthy Life</h5>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, aspernatur?</p>
@@ -34,7 +34,7 @@ export default function About() {
 
                     <Box>
                         <div>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <h5>Strategies</h5>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, aspernatur?</p>
@@ -42,7 +42,7 @@ export default function About() {
 
                     <Box>
                         <div>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <h5>Workouts</h5>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, aspernatur?</p>
@@ -173,9 +173,9 @@ const Box = styled.div`
         align-items: center;
         margin-bottom: 0.5rem;
 
-        i {
+        ion-icon {
             color: var(--red);
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-right: 0.5rem;
         }
     

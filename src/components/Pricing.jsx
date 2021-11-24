@@ -17,23 +17,23 @@ export default function Pricing() {
                     <p>$<span>30</span>/month</p>
                     <ul>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Personal Training</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Cardio Exercises</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Weight Lifting</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Diet Plans</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Overall Results</span>
                         </li>
                     </ul>
@@ -44,23 +44,23 @@ export default function Pricing() {
                     <p>$<span>60</span>/month</p>
                     <ul>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Personal Training</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Cardio Exercises</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Weight Lifting</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Diet Plans</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Overall Results</span>
                         </li>
                     </ul>
@@ -71,23 +71,23 @@ export default function Pricing() {
                     <p>$<span>90</span>/month</p>
                     <ul>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Personal Training</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Cardio Exercises</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Weight Lifting</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Diet Plans</span>
                         </li>
                         <li>
-                            <i className='bx bx-check'></i>
+                            <ion-icon name="checkmark-sharp"></ion-icon>
                             <span>Overall Results</span>
                         </li>
                     </ul>
@@ -177,9 +177,9 @@ const Box = styled.div`
             align-items: center;
             margin-bottom: 1rem;
     
-            i {
+            ion-icon {
                 color: var(--red);
-                font-size: 1.5rem;
+                font-size: 1.25rem;
                 margin-right: 0.5rem;
             }
     

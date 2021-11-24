@@ -40,7 +40,7 @@ export default function Header() {
                 <Links />
             </VerticalMenu>}
 
-            {isSmallScreen && <MenuIcon className="bx bx-menu" onClick={() => setIsVerticalMenuVisible(!isVerticalMenuVisible)}></MenuIcon>}
+            {isSmallScreen && <ion-icon name="menu" onClick={() => setIsVerticalMenuVisible(!isVerticalMenuVisible)}></ion-icon>}
 
             {!isSmallScreen && <HorizontalMenu>
                 <Links />
@@ -62,6 +62,12 @@ const Container = styled.header`
 
     @media(min-width: 1024px) {
         padding: 1rem 4rem;
+    }
+
+    ion-icon {
+        color: var(--white);
+        font-size: 2.5rem;
+        cursor: pointer;
     }
 `;
 
@@ -104,11 +110,5 @@ const Link = styled.a`
     :hover {
         color: var(--red);
     }
-`;
-
-const MenuIcon = styled.i`
-    color: var(--white);
-    font-size: 2.5rem;
-    cursor: pointer;
 `;
 

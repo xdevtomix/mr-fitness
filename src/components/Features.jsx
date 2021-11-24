@@ -14,7 +14,7 @@ export default function Features() {
                     <img src="https://images.pexels.com/photos/2785408/pexels-photo-2785408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
                 </Box>
                 <Box>
-                    <i className='bx bx-body'></i>
+                    <ion-icon name="body-sharp"></ion-icon>
                     <h5>Gym For Men</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, doloribus.</p>
                     <button>Read More</button>
@@ -23,7 +23,7 @@ export default function Features() {
                     <img src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
                 </Box>
                 <Box>
-                    <i className='bx bx-body'></i>
+                    <ion-icon name="body-sharp"></ion-icon>
                     <h5>Gym For Women</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, doloribus.</p>
                     <button>Read More</button>
@@ -32,7 +32,7 @@ export default function Features() {
                     <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image" />
                 </Box>
                 <Box>
-                    <i className='bx bx-body'></i>
+                    <ion-icon name="body-sharp"></ion-icon>
                     <h5>Body Building</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, doloribus.</p>
                     <button>Read More</button>
@@ -100,7 +100,7 @@ const Box = styled.div`
         object-fit: cover;
     }
 
-    i {
+    ion-icon {
         color: var(--light-white);
         font-size: 6rem;
     }

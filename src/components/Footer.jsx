@@ -48,23 +48,23 @@ export default function Footer() {
                     <h5>Reach Us</h5>
                     <ul>
                         <li>
-                            <i className='bx bx-phone'></i><span>+456 643 345</span>
+                            <ion-icon name="call"></ion-icon><span>+456 643 345</span>
                         </li>
                         <li>
-                            <i className='bx bx-phone'></i><span>+456 643 355</span>
+                            <ion-icon name="call"></ion-icon><span>+456 643 355</span>
                         </li>
                         <li>
-                            <i className='bx bx-envelope' ></i><span>kukac@kukac.com.co.uk</span>
+                            <ion-icon name="mail"></ion-icon><span>kukac@kukac.com.co.uk</span>
                         </li>
                         <li>
-                            <i className='bx bx-street-view' ></i><span>Indiana, Main street</span>
+                            <ion-icon name="location"></ion-icon><span>Indiana, Main street</span>
                         </li>
                         <li>
                             <div>
-                                <i className='bx bxl-facebook' ></i>
-                                <i className='bx bxl-twitter' ></i>
-                                <i className='bx bxl-instagram' ></i>
-                                <i className='bx bxl-linkedin' ></i>
+                                <ion-icon name="logo-facebook"></ion-icon>
+                                <ion-icon name="logo-twitter"></ion-icon>
+                                <ion-icon name="logo-instagram"></ion-icon>
+                                <ion-icon name="logo-linkedin"></ion-icon>
                             </div>
                         </li>
                     </ul>
@@ -173,7 +173,7 @@ const GridContainer = styled.div`
 
             li {
                 
-                >i {
+                >ion-icon {
                     font-size: 1rem;
                     color: var(--red);
                     margin-right: 0.5rem;
@@ -188,9 +188,9 @@ const GridContainer = styled.div`
                     display: flex;
                     gap: 1.5rem;
 
-                    i {
+                    ion-icon {
                         font-size: 1.5rem;
-                        color: var(--white);
+                        color: var(--light-white);
                         cursor: pointer;
                     }
                 }
