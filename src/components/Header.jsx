@@ -7,6 +7,24 @@ export default function Header() {
     const [isSmallScreen, setIsSmallScreen] = useState(mediaQuery.matches);
     const [isVerticalMenuVisible, setIsVerticalMenuVisible] = useState(false);
 
+    /* this block is just a trial */
+    const decorColors = [
+        'red', 'hotpink', 'deeppink', 'magenta', 'tomato', 
+        'springgreen', 'lightseagreen', 'darkturquoise', 'darkcyan', 'teal', 'cornflowerblue', 'royalblue',
+        'mediumvioletred', 'darkviolet'
+    ];
+    const [decorColor, setDecorColor] = useState(0);
+
+    useEffect(() => {
+        document.documentElement.style.setProperty('--red', decorColors[decorColor]);
+        return () => { };
+    }, [decorColor]);
+
+    const onLogoClick = () => {
+        setDecorColor((dC) => dC === decorColors.length - 1 ? 0 : dC + 1);
+    };
+    /* this block is just a trial */
+
     useEffect(() => {
         const onMediaChange = (e) => {
             setIsSmallScreen(e.matches);
@@ -27,6 +45,7 @@ export default function Header() {
             <Link href="#pricing">Pricing</Link>
             <Link href="#trainers">Trainers</Link>
             <Link href="#blogs">Blogs</Link>
+            <Link href="#colors" onClick={() => onLogoClick()}>Colors</Link>
         </>
     );
 
