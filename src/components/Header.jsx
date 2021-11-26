@@ -7,7 +7,7 @@ export default function Header() {
     const [isSmallScreen, setIsSmallScreen] = useState(mediaQuery.matches);
     const [isVerticalMenuVisible, setIsVerticalMenuVisible] = useState(false);
 
-    /* this block is just a trial */
+    /* this block is just a trial, yes */
     const decorColors = [
         'red', 'hotpink', 'deeppink', 'magenta', 'tomato', 
         'springgreen', 'lightseagreen', 'darkturquoise', 'darkcyan', 'teal', 'cornflowerblue', 'royalblue',
@@ -23,7 +23,7 @@ export default function Header() {
     const onLogoClick = () => {
         setDecorColor((dC) => dC === decorColors.length - 1 ? 0 : dC + 1);
     };
-    /* this block is just a trial */
+    /* this block is just a trial, yes */
 
     useEffect(() => {
         const onMediaChange = (e) => {
